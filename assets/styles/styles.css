@@ -1,0 +1,51 @@
+/* Este es un selector universal */
+/* * {
+    background-color: cornflowerblue;
+} */
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+/* Pseudoclases */
+div:first {
+    background-color: orange;
+}
+
+/* Selector de tipo o etiqueta */
+h1, 
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 30 px;
+}
+
+/* h1{
+    margin: 0;
+} */
+
+/* h2 {
+    color: #33FF42;
+} */
+
+/* Selector de clase */
+.listas-de-favoritos {
+    color: hotpink
+}
+
+/* Selector de id */
+#lista-chikistriquis {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+p::first-letter{
+    color: red;
+} 
+
+p::first-line{
+    color: blueviolet;
+}
